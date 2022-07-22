@@ -9,8 +9,8 @@ for file in apps/*.desktop; do
 done
 
 # Link every icon to the correct location
-mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps
+mkdir -p $HOME/.icons
 for file in icons/*.png; do
     echo "Linking ICON $file..."
-    ln -sf $file $HOME/.local/share/icons/hicolor/scalable/apps
+    ln -sf $file $HOME/.icons
 done
