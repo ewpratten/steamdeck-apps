@@ -1,0 +1,3 @@
+#! /bin/bash
+
+flatpak run com.google.Chrome --window-size=1024,640 --force-device-scale-factor=1.25 --device-scale-factor=1.25 --user-agent="Mozilla/5.0 (X11; Linux x86_64; Xbox; Xbox One; Valve Steam Gamepad)"  --kiosk "https://www.youtube.com/tv"

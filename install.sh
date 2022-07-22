@@ -8,6 +8,12 @@ for file in apps/*.desktop; do
     desktop-file-install --dir=$HOME/.local/share/applications $file
 done
 
+# Chmod all bins
+for file in bin/*; do
+    echo "Making $file executable..."
+    chmod +x $file
+done
+
 # Link every icon to the correct location
 mkdir -p $HOME/.icons
 for file in icons/*.png; do

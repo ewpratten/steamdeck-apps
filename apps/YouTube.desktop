@@ -2,6 +2,6 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=flatpak run com.google.Chrome --window-size=1024,640 --force-device-scale-factor=1.25 --device-scale-factor=1.25 --user-agent="Mozilla/5.0 (X11; Linux x86_64; Xbox; Xbox One; Valve Steam Gamepad)"  --kiosk "https://www.youtube.com/tv"
+Exec=/home/deck/steamdeck-apps/bin/youtube
 Name=Youtube TV
-Icon=app_youtube
+Icon=/home/deck/steamdeck-apps/icons/app_youtube.png
